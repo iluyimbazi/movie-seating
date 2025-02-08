@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <title>Movie Seat Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://luyimbazi.dev/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://luyimbazi.dev/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="language" content="english">
+    <meta name="author" content="Ivan Luyimbazi">
+    <meta name="description"
+        content="This is my sample web page built with html, css and Javascript for an imaginary theatre seating">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Person",
+          "name": "Ivan Luyimbazi",
+          "url": "https://www.luyimbazi.uk",
+          "image": "https://luimbazi.uk/images/luyimbazi.webp",
+          "sameAs": [
+            "https://www.twitter.com/iluyimbazi",
+            "https://www.linkedin.com/in/luyimbazi/",
+            "https://twitch.com/iluyimbazi",
+            "https://github.com/iluyimbazi",
+            "https://www.livan.dev",
+            "https://www.luyimbazi.dev",
+            "https://www.luyimbazi.com",
+            "https://www.luyimbazi.dev",
+            "https://www.youtube.com/@iluyimbazi"
+          
+          ]  
+        }
+        </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Movie Title</h1>
+
+        <div class="screen"></div>
+        <div class="seats-container">
+            <div class="seat-grid">
+            </div>
+            <div class="legend">
+                <div class="seat available"></div> Available
+                <div class="seat occupied"></div> Occupied
+                <div class="seat selected"></div> Selected
+                <div class="seat premium"></div> Premium
+                <div class="seat unavailable"></div> Unavailable
+            </div>
+        </div>
+
+        <div class="booking-info">
+            <p>Selected Seats: <span id="selected-seats">0</span></p>
+            <p>Total Price: £<span id="total-price">0</span></p>
+            <button id="book-button">Book Now</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p class="rights">&copy; 2025 <a href="https://luyimbazi.dev" title="Ivan Luyimbazi" rel="noopener"
+            target="_blank">Ivan
+            Luyimbazi</a> Hosting by <a href="https://malaika.uk" title="Malaika Hosting" rel="noopener"
+            target="_blank">Malaika Hosting</a></p>
+    <p>
+    <ul class="list-unstyled d-flex social-icons">
+        <li><a href="https://twitter.com/iluyimbazi" title="Ivan Luyimbazi on X"
+                class="fa-brands fa-twitter social-icon" rel="noopener" target="_blank"></a>
+
+        </li>
+        <li><a href="https://www.github.com/iluyimbazi" title="Ivan Luyimbazi on Github"
+                class="fa-brands fa-square-github social-icon" rel="noopener" target="_blank"></a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/luyimbazi" title="Ivan luyimbazi on LinkedIn"
+                class="fa-brands fa-linkedin social-icon " rel="noopener" target="_blank"></a>
+        </li>
+
+
+    </ul>
+    </p>
+</footer>
+
+</html>
